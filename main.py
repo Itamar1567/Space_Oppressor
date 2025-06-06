@@ -118,7 +118,7 @@ clock = pygame.time.Clock()
 #Object Instantiation
 player = Player(center_X,center_Y, radius, white)
 enemies = []
-for _ in range(1):
+for _ in range(35):
     new_enemy = Enemy(screenX , screenY, radius, red, enemySpeed)
     enemies.append(new_enemy)
 
